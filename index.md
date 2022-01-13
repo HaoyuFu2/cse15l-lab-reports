@@ -5,4 +5,4 @@
 * Another line
 
 Another paragraph
-> ***Bold Italic
+> ***Bold Italic***
