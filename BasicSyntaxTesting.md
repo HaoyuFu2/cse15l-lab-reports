@@ -14,4 +14,7 @@ Another paragraph
 
 `System.out.print("Hello");`
 
-# This is the edits from the ***VS Code***!
+# This is the edit from the ***VS Code***!
+
+# Screenshots Uploading test
+![Screenshot](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Screen%20Shot%202022-01-13%20at%202.14.26%20PM.png?raw=true)
