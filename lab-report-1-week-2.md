@@ -1,0 +1,1 @@
+![Screenshot](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%202.14.26%20PM.png?raw=true)
