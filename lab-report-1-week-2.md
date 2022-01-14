@@ -43,7 +43,7 @@ Steps you need to set an SSH Key:
 You can now connect to the server without typing password, like the screenshot shows.
 
 # Optimizing Remote Running
-![Optimizing Remote Running]()
+![Optimizing Remote Running](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Optimizing%20Remote%20Running.png?raw=true)
 
 The screenshot shows other things you can try to improve the efficiency of remote working on a server:
  - quote the commands you want to run on the server after you type `ssh uername` to run it without log in to the server
