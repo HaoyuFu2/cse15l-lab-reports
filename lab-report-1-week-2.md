@@ -30,6 +30,7 @@ You can upload files from your computer to the server. First you should log out 
 
 # Setting an SSH Key
 ![Setting an SSH Key]()
+
 It is annoying that you need to enter your password over and over again whenever you log in to the server. Fortunately you can set up an SSH Key on your computer so you get rid of it. 
 
 Steps you need to set an SSH Key:
