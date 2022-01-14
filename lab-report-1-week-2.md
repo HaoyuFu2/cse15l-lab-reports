@@ -9,7 +9,7 @@ Once you have download and install the VScode, it should looks similar to this (
 # Remotely Connecting
 Before you can connect to the course server, you need to look up your username here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php), you should also asked to change the passwords before using it. 
 
-![Remotely Connecting]()
+![Remotely Connecting](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Remotely%20Connecting.png?raw=true)
 
 Then, in the terminal of the VScode, type 
 
@@ -18,13 +18,13 @@ Then, in the terminal of the VScode, type
 and enter your password. You should be successfully connect to the server, like the screenshot shows! (If something like `(yes/no)` appears, just type `yes`.)
 
 # Trying Some Commands
-![Trying Some Commands]()
+![Trying Some Commands](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Trying%20Some%20Commands.png?raw=true)
 
 Once you have connect to the server, you can try some commands
 The screenshot shows what I tried in the first time I connect to the server. Commands that I tried: `ls`, `ls -a`, `ls -lat`, `cd`, `cd ~`, `pwd`, `logout`, `exit`.
 
 # Moving Files with scp
-![Moving Files with scp]()
+![Moving Files with scp](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Moving%20Files%20with%20scp.png?raw=true)
 
 You can upload files from your computer to the server. First you should log out using the command `logout` to return to the terminal on your computer, then use the command `scp [File Name] cs15lwi22[your username]@ieng6.ucsd.edu: [any directory on the server]`. The screenshot shows an example of uploading and running a java file to the server.
 
