@@ -29,7 +29,7 @@ The screenshot shows what I tried in the first time I connect to the server. Com
 You can upload files from your computer to the server. First you should log out using the command `logout` to return to the terminal on your computer, then use the command `scp [File Name] cs15lwi22[your username]@ieng6.ucsd.edu: [any directory on the server]`. The screenshot shows an example of uploading and running a java file to the server.
 
 # Setting an SSH Key
-![Setting an SSH Key]()
+![Setting an SSH Key](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Setting%20an%20SSH%20Key.png?raw=true)
 
 It is annoying that you need to enter your password over and over again whenever you log in to the server. Fortunately you can set up an SSH Key on your computer so you get rid of it. 
 
