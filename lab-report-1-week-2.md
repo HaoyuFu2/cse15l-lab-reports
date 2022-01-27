@@ -50,3 +50,11 @@ The screenshot shows other things you can try to improve the efficiency of remot
  - use semicolons to separate commands, so you can run multiple commands within a single line
  - copy your username, and just paste it whenever you need it
  - use shortcuts (command c and command v for examples) to save time
+ - use tab key to automatically fill some file names or commands
+
+Example of how using these techniques to save time:
+
+Let's say we want to copy a java file to the server and run it on the server.
+Without using the techniques, we need to type the following codes:
+ - 
+    
