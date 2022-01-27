@@ -57,10 +57,10 @@ Example of how using these techniques to save time:
 Let's say we want to copy a java file to the server and run it on the server.
 Without using the techniques, we need to type the following codes:
 
-`scp WhereAmI.java cs15lwi22aro@ieng6.ucsd.edu`
-`ssh cs15lwi22@ieng6.ucsd.edu`
-`javac WhereAmI.java`
-`java WhereAmI`
+ - `scp WhereAmI.java cs15lwi22aro@ieng6.ucsd.edu`
+ - `ssh cs15lwi22@ieng6.ucsd.edu`
+ - `javac WhereAmI.java`
+ - `java WhereAmI`
 
 If we just type all the codes one by one, we need more than 100 keystrokes, plus the wait time for the server to respond.
 
