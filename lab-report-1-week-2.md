@@ -56,5 +56,27 @@ Example of how using these techniques to save time:
 
 Let's say we want to copy a java file to the server and run it on the server.
 Without using the techniques, we need to type the following codes:
- - 
-    
+
+`scp WhereAmI.java cs15lwi22aro@ieng6.ucsd.edu`
+`ssh cs15lwi22@ieng6.ucsd.edu`
+`javac WhereAmI.java`
+`java WhereAmI`
+
+If we just type all the codes one by one, we need more than 100 keystrokes, plus the wait time for the server to respond.
+
+![Optimizing Remote Running2](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Optimizing%20Remote%20Running%202.png?raw=true)
+
+If we use the techniques above, we just need the following steps:
+
+ - `scp WhereAmI.java cs15lwi22@ieng6.ucsd.edu`
+
+Where we just need to type `scp`, and press tab key after typing `W` and we get `WhereAmI.`, and using tab again to get `WhereAmI.java`. Then we copy paste our user name `cs15lwi22@ieng6.ucsd.edu`, and we finish this line. That is a total of around 13 keystrokes and mouse clicks.
+
+ - `ssh cs15lwi22@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
+
+Here we type `ssh`, paste username again `cs15lwi22@ieng6.ucsd.edu`, and type the rest of them since we cannot use tab to autofill here. We save around 20 keystrokes using paste instead of type our username. So at total we used 40 keystrokes.
+
+Compared to type everything with more than 100 keystrokes, we just need around 50 keystrokes with our techniques. Also we save the time of waiting the responses from the server.
+
+![Optimizing Remote Running2](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images/Optimizing%20Remote%20Running%203.png?raw=true)
+
