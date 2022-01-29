@@ -4,7 +4,7 @@ In this post I will be talking about the changes of a small program as debugging
 # Code Change 1
 ![Code Change 1](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images-lab-report-2/Code-Change-1.png?raw=true)
 
-1. Failure-inducing input: [Failure-inducing input 1](https://github.com/HaoyuFu2/markdown-parse/blob/5170cd7532d0aea068ed4f707ccca582d0204da7/breaking-test.md)
+1. Failure-inducing input: [Failure-inducing input file 1](https://github.com/HaoyuFu2/markdown-parse/blob/5170cd7532d0aea068ed4f707ccca582d0204da7/breaking-test.md)
 
 2. Symptom of the failure-inducing input:
 
@@ -18,7 +18,7 @@ In this post I will be talking about the changes of a small program as debugging
 # Code Change 2
 ![Code Change 2](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images-lab-report-2/Code-Change-2.png?raw=true)
 
-1. Failure-inducing input: [Failure-inducing input 2](https://github.com/HaoyuFu2/markdown-parse/blob/09e1d5097d3d74dd8234660392f670105444c1f1/test-file-image.md)
+1. Failure-inducing input: [Failure-inducing input file 2](https://github.com/HaoyuFu2/markdown-parse/blob/09e1d5097d3d74dd8234660392f670105444c1f1/test-file-image.md)
 
 2. Symptom of the failure-inducing input:
 
@@ -32,7 +32,7 @@ In this post I will be talking about the changes of a small program as debugging
 # Code Change 3
 ![Code Change 3]()
 
-1. Failure-inducing input: [Failure-inducing input 3](https://github.com/HaoyuFu2/markdown-parse/blob/1c64c7e44031f2331f610086bfe31693d6e2066f/no-parenthesis.md)
+1. Failure-inducing input: [Failure-inducing input file 3](https://github.com/HaoyuFu2/markdown-parse/blob/1c64c7e44031f2331f610086bfe31693d6e2066f/no-parenthesis.md)
 
 2. Symptom of the failure-inducing input:
 
@@ -44,6 +44,6 @@ In this post I will be talking about the changes of a small program as debugging
             at MarkdownParse.getLinks(MarkdownParse.java:21)
             at MarkdownParse.main(MarkdownParse.java:39)
 
-3. 
+3. This time, the symptom is an `StringIndexOutOfBoundsException`, caused by a failure-inducing input which contains a pair of bracket but no parenthesis. Our code looks for brackets and parenthesis using the indexOf method, when they don't exist, the indexOf method returns negative values. Then when the negative value is used as the argument for substring method, the exception is caused and the bug appears.
 
 
