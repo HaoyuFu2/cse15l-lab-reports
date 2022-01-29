@@ -30,7 +30,7 @@ In this post I will be talking about the changes of a small program as debugging
 3. This bug doesn't have an obvious symptom, because it works perfectly at the first glance. However, when we check the output and the input file, we would find that the program also extract the image links from the file, which it should not do so. Any file containing an image link could be an failure-inducing input causing this bug, because the code doesn't check whether there is an exclaimation mark before the open bracket.
 
 # Code Change 3
-![Code Change 3]()
+![Code Change 3](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images-lab-report-2/Code-Change-3.png?raw=true)
 
 1. Failure-inducing input: [Failure-inducing input file 3](https://github.com/HaoyuFu2/markdown-parse/blob/1c64c7e44031f2331f610086bfe31693d6e2066f/no-parenthesis.md)
 
@@ -45,5 +45,3 @@ In this post I will be talking about the changes of a small program as debugging
             at MarkdownParse.main(MarkdownParse.java:39)
 
 3. This time, the symptom is an `StringIndexOutOfBoundsException`, caused by a failure-inducing input which contains a pair of bracket but no parenthesis. Our code looks for brackets and parenthesis using the indexOf method, when they don't exist, the indexOf method returns negative values. Then when the negative value is used as the argument for substring method, the exception is caused and the bug appears.
-
-
