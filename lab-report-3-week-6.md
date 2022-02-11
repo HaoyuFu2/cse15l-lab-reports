@@ -10,12 +10,12 @@ Here is an example copying the markdown-parse directory into the ieng6 server:
 
 ![Copying whole directory](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images-lab-report-3/Copying%20whole%20directory.png?raw=true)
 
-# Checking the results of `scp -r`
+# Checking the results of scp -r
 Let's log in to the ieng6 server and try compiling and running the tests:
 
 ![Check result of scp -r](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images-lab-report-3/Check%20result%20of%20scp%20-r.png?raw=true)
 
-# Combining `scp`, `;`, and `ssh `
+# Combining scp, ;, and ssh 
 Now let's try to copy the whole directory and run the tests in one line by combining commands using `;`.
 
 Commands I used:
@@ -25,4 +25,5 @@ Commands I used:
 Results I got:
 
 ![Combining commands 1](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images-lab-report-3/Combining%20commands%201.png?raw=true)
+
 ![Combining commands 2](https://github.com/HaoyuFu2/cse15l-lab-reports/blob/main/Images-lab-report-3/Combining%20commands%202.png?raw=true)
